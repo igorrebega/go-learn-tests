@@ -1,4 +1,4 @@
-package main
+package hello_world
 
 import "fmt"
 
@@ -30,6 +30,6 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
-func main() {
+func _() {
 	fmt.Print(Hello("World", ""))
 }
